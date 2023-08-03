@@ -11,7 +11,11 @@ function courses() {
         courses.forEach((course) => {
             results+= `<li> ${course.title} </li>`
         })
+
+        document.getElementById('show').innerHTML = result
     }
 
     )
 }
+
+courses()
