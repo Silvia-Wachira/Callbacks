@@ -8,10 +8,10 @@ buttonTwo.addEventListener('click', alertBtn)
 
 //mouseover event
 
-const newBackgroundColor = document.querySelector(".btn-3")
+const newBackgroundColor = document.querySelector(".box-3")
 
 function changeBgColor() {
     newBackgroundColor.style.backgroundColor = 'red';
 }
 
-newBackgroundColor.addEventListener('mouseover' changeBgColor)
+newBackgroundColor.addEventListener('mouseover', changeBgColor)

@@ -1,3 +1,16 @@
 * {
     background-color: seagreen;
 }
+
+.container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxes {
+    border: 5px;
+    background-color: yellow;
+    height: 300px;
+    width: 200px;
+}
