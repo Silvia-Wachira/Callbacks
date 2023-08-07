@@ -1,8 +1,11 @@
 
-const links = document.getElementsByClassName('link')
+const images = document.getElementsByTagName('img')
 
+//convert html collection into an array
 
+imagesArray = Array.from(images);
 
-links[0].style.color = 'red';
-links[0].textContent = 'new text';
-links[0].style.background = 'black';
+imagesArray.forEach(function(image){
+    console.log(image)
+})
+console.log(imagesArray)
