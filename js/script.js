@@ -1,5 +1,5 @@
-let heading = document.getElementById('heading')
+const tagline = document.querySelector('.tagline');
 
-console.log()
-
-heading.style.background = '#333'
+const newText = tagline.textContent.replace('$15', '$12');
+tagline.textContent = newText
+console.log(tagline)
