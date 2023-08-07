@@ -26,7 +26,19 @@
 //     console.log(todo[i]);
 // }
 
+// todo.forEach(function(assignment, index){
+//     console.log(`${index}: ${assignment}`)
+// })
 
 
+const shoppingCart = [
+    {id: 1, product: 'Book'},
+    {id: 2, product: 'Shirt'},
+    {id: 3, product: 'Album'}
+];
 
+const productName = shoppingCart.map(function(productName){
+    return productName.product;
+});
 
+console.log(productName)
