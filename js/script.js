@@ -1,41 +1,5 @@
-// const buttonTwo = document.querySelector('.btn-2')
+let heading = document.getElementById('heading')
 
-// function alertBtn() {
-//     alert('I also love JavaScript');
-// }
+console.log()
 
-// buttonTwo.addEventListener('click', alertBtn)
-
-//mouseover event
-
-// const newBackgroundColor = document.querySelector(".box-3")
-
-// function changeBgColor() {
-//     newBackgroundColor.style.backgroundColor = 'red';
-// }
-
-// newBackgroundColor.addEventListener('mouseover', changeBgColor)
-
-// let name = prompt("What's your name?");
-// document.getElementById('welcome').innerHTML = "welcome:" + name
-
-
-// const todo = ['Homework', 'Food', 'Project', 'Learn JS']
-
-// for(let i = 0; i < todo.length; i++) {
-//     console.log(todo[i]);
-// }
-
-// todo.forEach(function(assignment, index){
-//     console.log(`${index}: ${assignment}`)
-// })
-
-
-function getClients() {
-    console.log('Downloading...');
-    setTimeout(function(){
-        console.log('Complete...')
-    }, 3000)
-}
-
-getClients()
+heading.style.background = '#333'
