@@ -31,14 +31,11 @@
 // })
 
 
-const shoppingCart = [
-    {id: 1, product: 'Book'},
-    {id: 2, product: 'Shirt'},
-    {id: 3, product: 'Album'}
-];
+function getClients() {
+    console.log('Downloading...');
+    setTimeout(function(){
+        console.log('Complete...')
+    }, 3000)
+}
 
-const productName = shoppingCart.map(function(productName){
-    return productName.product;
-});
-
-console.log(productName)
+getClients()
