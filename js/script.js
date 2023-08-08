@@ -1,11 +1,14 @@
+const cartBtn = document.querySelector('.add-to-cart')
 
-const images = document.getElementsByTagName('img')
+let element;
 
-//convert html collection into an array
+element = cartBtn;
+element = cartBtn.parentNode;
+element = cartBtn.parentElement.parentElement.children[0];
 
-imagesArray = Array.from(images);
+element = cartBtn.parentNode
+element = cartBtn.previousElementSibling
 
-imagesArray.forEach(function(image){
-    console.log(image)
-})
-console.log(imagesArray)
+
+console.log(element)
+console.log(cartBtn.parentElement)
