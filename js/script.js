@@ -1,14 +1,11 @@
-const cartBtn = document.querySelector('.add-to-cart')
+//Replace an element
 
-let element;
+const newHeading = document.createElement('h2')
 
-element = cartBtn;
-element = cartBtn.parentNode;
-element = cartBtn.parentElement.parentElement.children[0];
-
-element = cartBtn.parentNode
-element = cartBtn.previousElementSibling
+//add an id
+newHeading.id = 'heading'
+//add new text
+newHeading.appendChild(document.createTextNode('The Best Courses'))
 
 
-console.log(element)
-console.log(cartBtn.parentElement)
+console.log(newHeading)
