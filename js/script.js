@@ -1,11 +1,6 @@
-//Replace an element
+const clearCartBtn = document.getElementById('clear-cart');
+clearCartBtn.addEventListener('click', clearbtnFunction);
 
-const newHeading = document.createElement('h2')
-
-//add an id
-newHeading.id = 'heading'
-//add new text
-newHeading.appendChild(document.createTextNode('The Best Courses'))
-
-
-console.log(newHeading)
+function clearbtnFunction() {
+    console.log('You clicked a btn')
+}
