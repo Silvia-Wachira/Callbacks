@@ -1,31 +1,21 @@
-//Input  & Form events
-
-//Create the variables
-
-const searchForm = document.getElementById('search'),
-      searchInput = document.getElementById('search-course')
-
-// searchForm.addEventListener('submit', printEvent)
-
-// searchInput.addEventListener('keydown', printEvent )
-
-// searchInput.addEventListener('keyup', printEvent )
-// searchInput.addEventListener('keypress', printEvent )
-// searchInput.addEventListener('blur', printEvent )
-// searchInput.addEventListener('cut', printEvent )
-// searchInput.addEventListener('copy', printEvent )
-// searchInput.addEventListener('paste', printEvent )
-searchInput.addEventListener('input', printEvent )
+//Event Bubbling
+//Variables
+const card = document.querySelector('.card'),
+      infoCards = document.querySelector('.info-card'),
+      addCartBtn = document.querySelector('.add-to-cart')
+      
 
 
-function printEvent(e) {
-    // e.preventDefault()
+ //Event Listeners
+card.addEventListener('click', function(e) {
+    console.log('You clicked the card')
+})
 
-    if(searchInput.value.length == 0) {
-        alert('Type something please')
-    }
+infoCards.addEventListener('click', function(e) {
+    console.log('You clicked the card')
+})
 
-    //Print the value from the input
-    console.log(searchInput.value)
-    console.log(`Type: ${e.type}`)
-}
+addCartBtn.addEventListener('click', function(e) {
+    console.log('You clicked the card')
+})
+//Event Listeners

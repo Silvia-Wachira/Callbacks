@@ -14,3 +14,9 @@
     height: 300px;
     width: 200px;
 }
+.card {
+    width: 20px;
+    background-color: aqua;
+    margin: auto;
+    border: 5px;
+}
