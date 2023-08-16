@@ -8,11 +8,11 @@ const card = document.querySelector('.card'),
 
  //Event Listeners
 card.addEventListener('click', function(e) {
-    console.log('You clicked the card')
+    console.log('You clicked the cart')
 })
 
 infoCards.addEventListener('click', function(e) {
-    console.log('You clicked the Info card')
+    console.log('You clicked the Info cart')
 })
 
 addCartBtn.addEventListener('click', function(e) {
