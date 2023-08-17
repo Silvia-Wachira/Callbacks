@@ -16,7 +16,7 @@
 }
 .card {
     width: 20px;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: auto;
     border: 5px;
 }

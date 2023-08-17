@@ -1,17 +1,15 @@
-
-//Add to local storage
-// localStorage.setItem('name', 'Juan');
+const localStorageContent = localStorage.getItem('name')
 
 
-//remove from local storage
-// localStorage.removeItem('name')
+let names;
+if(localStorageContent === null){
+    names = [];
+} 
 
-//rreead th e value
+console.log(names)
 
-// const name = localStorage.getItem('name')
+const myArray = [1, 2, 3];
 
-//clear storage
-// localStorage.clear();
+console.log(JSON.stringify(myArray))
 
-localStorage.setItem('name1', 'Juan');
-localStorage.setItem('name2', 'Walter');
+console.log(localStorageContent);
