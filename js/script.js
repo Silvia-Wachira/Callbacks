@@ -1,4 +1,4 @@
-const localStorageContent = localStorage.getItem('names')
+let localStorageContent = localStorage.getItem('names')
 
 let names;
 
