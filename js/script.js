@@ -1,3 +1,17 @@
-const localStorageContent = localStorage.getItem('name')
+const localStorageContent = localStorage.getItem('names')
 
-console.log(localStorageContent)
+let names;
+
+if(localStorageContent === null) {
+
+     names = [];
+} else {
+    JSON.parse( localStorageContent)
+}
+
+
+names.push('JavaScript')
+
+
+localStorage.setItem('names', JSON.stringify(names))
+
