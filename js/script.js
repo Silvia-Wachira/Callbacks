@@ -1,7 +1,7 @@
 //Object literals
 
 const client = 
-[
+{
     name: 'Juan',
     balance: 1000,
     membership: function() {
@@ -12,5 +12,7 @@ const client =
         } else {
             name = 'Normal'
         }
+        return name;
     }
-]
+}
+console.log(client.membership())
