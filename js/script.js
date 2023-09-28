@@ -1,18 +1,10 @@
-//Object literals
+// Object Constructor
 
-const client = 
-{
-    name: 'Juan',
-    balance: 1000,
-    membership: function() {
-        let name;
-        //check balance
-        if(this.balance > 500) {
-            name = 'Platinum';
-        } else {
-            name = 'Normal'
-        }
-        return name;
-    }
+function Client(namw, balance) {
+    this.name = name;
+    this.balance = balance
 }
-console.log(client.membership())
+
+const person = new Client('Juan', 1000); 
+
+console.log(person);
