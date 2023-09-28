@@ -20,6 +20,15 @@ function Client(namw, balance) {
 const person = new Client('Juan', 100); 
 const person2 = new Client('Karen', 600);
 
-console.log(person);
-console.log(person.membership() );
-console.log(person2);
+// console.log(person);
+// console.log(person.membership() );
+// console.log(person2);
+
+
+
+//string
+const name1 = 'Karen'
+const name2 = new String('Karen')
+
+console.log(typeof name1);
+console.log(typeof name2);
