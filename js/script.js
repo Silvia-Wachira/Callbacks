@@ -13,11 +13,13 @@ function Client(namw, balance) {
         } else {
             name = 'Normal'
         }
+        return name;
     }
 }
 
-const person = new Client('Juan', 1000); 
+const person = new Client('Juan', 100); 
 const person2 = new Client('Karen', 600);
 
 console.log(person);
+console.log(person.membership() );
 console.log(person2);
