@@ -15,6 +15,12 @@ function Client(name, balance) {
         }
         return name;
     }
+    this.getClientInfo = function() {
+
+    }
+    this.getBalance = function() {
+        
+    }
 }
 
 const person = new Client('Juan', 100); 
