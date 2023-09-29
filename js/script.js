@@ -3,8 +3,13 @@
 function Client(name, balance) {
     this.name = name;
     this.balance = balance
-    this.membership = function() {
-        let name;
+}
+
+//Attach the prototype to the method
+Client.prototype.membership = function() {
+    let name;
+    
+
         //check for the balance
         if(this.balance > 1000) {
             name = 'Gold';
@@ -15,13 +20,8 @@ function Client(name, balance) {
         }
         return name;
     }
-    this.getClientInfo = function() {
+    
 
-    }
-    this.getBalance = function() {
-        
-    }
-}
 
 const person = new Client('Juan', 100); 
 const person2 = new Client('Karen', 600);
