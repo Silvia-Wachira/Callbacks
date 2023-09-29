@@ -30,5 +30,12 @@ const person2 = new Client('Karen', 600);
 const name1 = 'Karen'
 const name2 = new String('Karen')
 
-console.log(typeof name1);
-console.log(typeof name2);
+const number1 = 20;
+const number2 =  new Number(20)
+
+
+const boolean1 = true;
+const boolean2 = new Boolean(false)
+
+console.log(boolean1);
+console.log(boolean2);
