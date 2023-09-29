@@ -37,5 +37,17 @@ const number2 =  new Number(20)
 const boolean1 = true;
 const boolean2 = new Boolean(false)
 
-console.log(boolean1);
-console.log(boolean2);
+
+//fuctions
+const function1 = function (a, b) {
+    return a + b;
+}
+const function2 = new Function('a', 'b', 'return a + b'); 
+
+
+
+const person1 = {name: 'Juan'}
+const person2 = new Object ({name: 'Juan'})
+
+console.log(function1(2,3));
+console.log(function2(4.5));
