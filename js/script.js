@@ -17,8 +17,8 @@ function Client(namw, balance) {
     }
 }
 
-const person = new Client('Juan', 100); 
-const person2 = new Client('Karen', 600);
+// const person = new Client('Juan', 100); 
+// const person2 = new Client('Karen', 600);
 
 // console.log(person);
 // console.log(person.membership() );
@@ -45,9 +45,13 @@ const function1 = function (a, b) {
 const function2 = new Function('a', 'b', 'return a + b'); 
 
 
-
+//objects
 const person1 = {name: 'Juan'}
-const person2 = new Object ({name: 'Juan'})
+const person2 = new Object({name: 'Juan'});
 
-console.log(function1(2,3));
-console.log(function2(4.5));
+//Arrays
+const arr1 = [1,2,3,4];
+const arr2 = new Array(1,2,3,4,5);
+
+console.log(arr1);
+console.log(arr2);
