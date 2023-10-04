@@ -34,5 +34,6 @@ console.log(Client.prototype)
 console.log(person)
 console.log(person.membership() );
 console.log(person.clientInfo() );
+
 // console.log(person2);
 // console.log(person2.membership());
