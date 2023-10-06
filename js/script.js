@@ -70,3 +70,4 @@ console.log(person2.getBalance() );
 person2.deposit(500);
 console.log(person2.clientInfo() );
 console.log(person2.getBalance() );
+
