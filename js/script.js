@@ -51,6 +51,12 @@ function Business(name, balance, phone, category) {
     this.category = category;
 }
 
+//Inherit the prototypes
+Business.prototype = Object.create(Client.prototype)
+
+//Return the constructor as Business
+Business.prototype.constructor = Business;
+
 //Create a Business
 const business = new Business('Udemy', 1000000, 12345656546, 'Education')
 console.log(business);
