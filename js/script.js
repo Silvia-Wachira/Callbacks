@@ -57,7 +57,14 @@ Business.prototype = Object.create(Client.prototype)
 //Return the constructor as Business
 Business.prototype.constructor = Business;
 
+Business.prototype.businessInfo = function() {
+    return `Name: ${this.name}, Balance: ${this.balance},
+    Membership: ${this.membership() }, Category: ${this.category}, Phone: ${this.phone}`
+}
+
+
 //Create a Business
 const business = new Business('Udemy', 1000000, 12345656546, 'Education')
+
 console.log(business);
-console.log(business.clientInfo())
+console.log(business.businessInfo())
