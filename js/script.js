@@ -44,32 +44,14 @@ Client.prototype.getBalance = function() {
 const person = new Client('Juan', 2000); 
 const person2 = new Client('Karen', 600);
 
-console.log(person)
-console.log(person.membership() );
-console.log(person.clientInfo() );
-person.withdraw(100)
-console.log(person.clientInfo() );
-console.log(person.getBalance() );
-person.deposit(500);
-console.log(person.clientInfo() );
-console.log(person.getBalance() );
+//Business
+function Business(name, balance, phone, category) {
+    Client.call(this, name, balance);
+    this.phone = phone;
+    this.category = category;
+}
 
-
-console.log('------------');
-
-console.log(person2);
-console.log(person2.membership());
-console.log(person2.clientInfo());
-
-console.log(person2)
-console.log(person2.membership() );
-console.log(person2.clientInfo() );
-person2.withdraw(1000)
-console.log(person2.clientInfo() );
-console.log(person2.getBalance() );
-person2.deposit(500);
-console.log(person2.clientInfo() );
-console.log(person2.getBalance() );
-
-
-
+//Create a Business
+const business = new Business('Udemy', 1000000, 12345656546, 'Education')
+console.log(business);
+console.log(business.clientInfo())
