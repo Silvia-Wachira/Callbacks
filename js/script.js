@@ -10,3 +10,7 @@ const Client = {
         return this.balance -= amount;
     }
 }
+
+//Create a new object and give balance
+
+const mary = Object.create(Client)
